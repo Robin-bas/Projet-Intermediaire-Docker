@@ -6,6 +6,7 @@ bin-release/
 
 # Other files and folders
 .settings/
+ib_logfile0
 
 # Executables
 *.swf
