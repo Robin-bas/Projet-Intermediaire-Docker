@@ -6,6 +6,10 @@ bin-release/
 
 # Other files and folders
 .settings/
+aria_log_control
+aria_log.00000001
+ddl_recovery.log
+ibdata1
 ib_logfile0
 
 # Executables
