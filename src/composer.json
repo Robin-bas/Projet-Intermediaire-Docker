@@ -1,0 +1,17 @@
+{
+    "name": "jerem/test",
+    "require": {
+        "michelf/php-markdown": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jerem\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DelbartJ",
+            "email": "jeremu.delbart@gmail.com"
+        }
+    ]
+}
