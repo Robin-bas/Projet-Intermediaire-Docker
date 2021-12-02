@@ -1,4 +1,5 @@
 /node_modules
+/vendor
 
 # Build and Release Folders
 bin-debug/
