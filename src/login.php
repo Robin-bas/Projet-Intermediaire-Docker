@@ -9,17 +9,18 @@
     <title>login</title>
 </head>
 <body>
-    <form action="action_page.php" method="post">
+    <form action="action_page.php" method="get">
         <div class="container">
-            <label for="pseudo">pseudo</label>
-            <input type="text" name="pseudo" id="" required placeholder="Enter Pseudo">
-            <label for="password">password</label>
-            <input type="password" name="password" id="" required placeholder="Enter Password">
-            <label for="email">email</label>
-            <input type="email" name="email" id="" required placeholder="Enter Email">
-            <label for="isadmin">Admin</label>
-            <input type="checkbox" name="isadmin" id="">
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="" required placeholder="Enter Pseudo" value="pseudo">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="" required placeholder="Enter Password" value="password">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="" required placeholder="Enter Email" value="email">
+            <label for="admin">Admin</label>
+            <input type="checkbox" name="admin" id="" value="admin">
             <button type="submit">Envoyer</button>
+            <a href="register.php">create account batard !</a>
         </div>   
     </form>
 </body>
