@@ -1,5 +1,9 @@
 <?php
-class User
+
+namespace Entity;
+
+use Model\UserManager;
+
 {
     private $id;
     private $name;
