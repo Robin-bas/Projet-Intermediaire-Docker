@@ -4,6 +4,7 @@ namespace Entity;
 
 use Model\UserManager;
 
+class User extends BaseEntity
 {
     private $id;
     private $name;
