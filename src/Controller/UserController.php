@@ -17,13 +17,13 @@ class UserController extends BaseController
     public function executeShow()
     {
         $manager = new UserManager();
-        $article = $manager->getUserById($this->params['id']);
+        $user = $manager->getUserById($this->params['id']);
 
-        if (!$article) {
+        if (!$user) {
             header('Location: /');
             exit();
         }
 
-        return $this->render($article->getTitle(), ['article' $article], 'User/show');
+        return $this->render($user->getName(), ['user' => $user], 'User/show');
     }
 }

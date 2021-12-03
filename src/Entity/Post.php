@@ -1,5 +1,8 @@
 <?php
-class Post
+
+namespace Entity;
+
+class Post extends BaseEntity
 {
     private $id;
     private $author_id;
