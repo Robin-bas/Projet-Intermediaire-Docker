@@ -35,4 +35,12 @@ class PostManager extends BaseManager
 
         return $query->fetch();
     }
+
+    /*public function createPost($author_id, $title, $image, $content)
+    {
+        $newPost = new Posts();
+
+        /*$query = $this->db-prepare('INSERT INTO "Posts" (`Author_id`, `Title`, `Image`, `Content`) VALUES ('.$author_id.','.$titre.','.$image.','.$content.')');
+        $query->execute();
+    }*/
 }
