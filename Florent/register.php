@@ -7,7 +7,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     {
         if(empty(trim($_POST["username"])))
             {
-                $username_err = "Please enter a username.";
+                $username_err = "Veuillez entrer votre pseudo.";
             } 
         elseif(!preg_match('/^[a-zA-Z0-9_]+$/', trim($_POST["username"])))
             {
