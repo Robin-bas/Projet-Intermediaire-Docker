@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+    <!-- FrontEnd 
+    <route p="" controller="FrontController" action="index"/>
+    <route p="article" controller="FrontController" action="show" params="id"/>
+     API-REST -->
+    <route p="posts" controller="PostController" action="ShowPost" params="id"/>
+    <route p="comments" controller="CommentController" action="ShowComment" params="id, mainId"/>
+    <route p="users" controller="UserController" action="ShowUser" params="id"/>
+    <!-- Security -->
+    <route p="login" controller="SecurityController" action="login"/>
+    <route p="logout" controller="SecurityController" action="logout"/>
+    <route p="signup" controller="SecurityController" action="signup"/>
+    <route p="delete-user" controller="SecurityController" action="delete-user" params="id"/>
+</routes>
